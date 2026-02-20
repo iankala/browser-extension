@@ -1,17 +1,59 @@
-# React + Vite
+# 🧩 Browser Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based browser extension built with Vite, featuring a component-driven UI with a header and footer layout.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a browser extension scaffold built using React and Vite. It demonstrates how to structure a browser extension with reusable React components, including a `Header` and `Footer`, while keeping the setup clean and modern.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React component architecture
+- Header and Footer components
+- Vite-powered development with Hot Module Replacement (HMR)
+- ESLint configured for code quality
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# browser-extension
+- **React** — Component-based UI
+- **Vite** — Build tool and dev server
+- **JavaScript / JSX**
+- **CSS**
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/iankala/browser-extension.git
+   cd browser-extension
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at `http://localhost:5173`
+
+## Project Structure
+
+```
+browser-extension/
+├── src/              # Source files
+├── public/           # Static assets
+├── Header.jsx        # Header component
+├── footer.jsx        # Footer component
+├── index.jsx         # App entry
+├── main.jsx          # React root
+├── classic.css       # Styles
+└── vite.config.js    # Vite config
+```
+
+## Author
+
+**Ian Kala** — [GitHub](https://github.com/iankala)
